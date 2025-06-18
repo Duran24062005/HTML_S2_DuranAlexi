@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container table {
+    border: 2px solid black;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+td {
+    border: 2px solid;
+    margin: 1rem;
+}
+
+.td {
+    border: none;
+    margin-right: 5rem;
+}
+
+.td img {
+    width: 15rem;
+    height: 16rem;
+    border-radius: 50%;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.personal_project {
+    margin-bottom: 1rem;
+}

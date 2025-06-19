@@ -76,6 +76,10 @@ td {
     width: 250px;
 }
 
+ul li {
+    margin-left: 2rem;
+}
+
 .proyectos-personales {
     width: 250px;
 }

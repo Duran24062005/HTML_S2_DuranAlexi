@@ -7,12 +7,16 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
-    padding: 20px;
+    background-image: url(https://technical.ly/wp-content/uploads/2018/09/code-coding.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85rem;
 }
 
 .container {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 table {

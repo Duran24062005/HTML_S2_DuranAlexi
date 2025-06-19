@@ -19,7 +19,7 @@ table {
     border: 3px solid black;
     width: 700px;
     height: 600px;
-    background-color: white;
+    margin: 1rem;
 }
 
 td {
@@ -27,6 +27,7 @@ td {
     padding: 1rem;
     margin: 3rem;
     vertical-align: top;
+    background-color: antiquewhite;
 }
 
 .photo-cell {

@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de registro - Mi web"</title>
+    <link rel="stylesheet" href="/HTML_S2_DuranAlexi/Dia3/styles/styles.css">
 </head>
 <body>
-    <h1>Formulario By Alexi Dg</h1>
     <form action="" method="post">
+        <h1>Formulario By <Alexi>Alexi Dg</Alexi></h1>
+        <h2>Formulario de Inscripción</h2>
+        <br>
         <ul>
             <li>
                 <label for="name">Nombre:</label>
@@ -20,12 +23,13 @@
             </li>
             <br>
             <li>
-                <label for="sex">Sexo:</label>
-                <select id="sex" name="user_sex">
-                    <option value="">Sin Valor</option>
-                    <option value="male">Hombre</option>
-                    <option value="female">Mujer</option>
-                </select>
+                <label for="sex">Sexo Masculino</label>
+                <input type="radio" id="sex" name="male"></li>
+            </li>
+            <br>
+            <li>
+                <label for="sex">Sexo Femenino</label>
+                <input type="radio" id="sex" name="female"></input>
             </li>
             <br>
             <li>
@@ -44,7 +48,23 @@
             </li>
             <br>
             <li>
-                <input type="button" value="Enviar">
+                <label for="sex">Población:</label>
+                <select id="sex" name="user_sex">
+                    <option value="">Sin Valor</option>
+                    <option value="bucaramanga">Bucaramanga</option>
+                    <option value="giron">Giron</option>
+                    <option value="floridablanca">Floridablanca</option>
+                    <option value="piedecuesta">Piedecuesta</option>
+                </select>
+            </li>
+            <br>
+            <li>
+                <label for="description">Descripción: </label>
+                <textarea name="description" id="description" placeholder="Descripción"></textarea>
+            </li>
+            <br>
+            <li class="contain-button">
+                <input class="button" type="button" id="send" value="Enviar">
             </li>
         </ul>
     </form>

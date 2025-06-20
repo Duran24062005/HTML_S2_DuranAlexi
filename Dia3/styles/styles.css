@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 1rem;
+    width: 40rem;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+Alexi {
+    margin-left: 0.5rem;
+    background: linear-gradient(to right, blue, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.contain-button {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    width: 8rem;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+.button:hover {
+    width: 8rem;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: greenyellow;
+    color: darkblue;
+    border: 1px solid;
+    border-radius: 8px;
+}

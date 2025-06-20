@@ -6,6 +6,47 @@
     <title>Formulario de registro - Mi web"</title>
 </head>
 <body>
-    <form action="" method="post"></form>
+    <h1>Formulario By Alexi Dg</h1>
+    <form action="" method="post">
+        <ul>
+            <li>
+                <label for="name">Nombre:</label>
+                <input type="text" name="user_last_name" id="name" placeholder="Nombre"></input>
+            </li>
+            <br>
+            <li>
+                <label for="last_name">Apellido:</label>
+                <input type="text" name="user_last_name" id="last_name" placeholder="Apellido"></input>
+            </li>
+            <br>
+            <li>
+                <label for="sex">Sexo:</label>
+                <select id="sex" name="user_sex">
+                    <option value="">Sin Valor</option>
+                    <option value="male">Hombre</option>
+                    <option value="female">Mujer</option>
+                </select>
+            </li>
+            <br>
+            <li>
+                <label for="email">Correo Electronico:</label>
+                <input type="email" name="user_email" id="email" placeholder="Correo"></input>
+            </li>
+            <br>
+            <li>
+                <label for="information">Deseo recibir información sobre novedades y ofertas</label>
+                <input type="checkbox" name="information" id="information"></input>
+            </li>
+            <br>
+            <li>
+                <label for="conditions">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+                <input type="checkbox" name="conditions" id="conditions"></input>
+            </li>
+            <br>
+            <li>
+                <input type="button" value="Enviar">
+            </li>
+        </ul>
+    </form>
 </body>
 </html>

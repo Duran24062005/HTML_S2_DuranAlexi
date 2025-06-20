@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1918px;
+    height: 4149px;
+    background: transparent url(/practica/img/Path\ 1.svg);
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+@media screen {
+    
+}
+
+header {
+    background-image: url(/practica/img/FondoTwitch.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}

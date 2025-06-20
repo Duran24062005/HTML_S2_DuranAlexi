@@ -6,8 +6,12 @@
 
 body {
     display: flex;
+    align-items: center;
     justify-content: center;
+    height: 100vh;
     font-family: sans-serif;
+    background: url(https://empatiacomunidad.com.ar/wp-content/uploads/2021/05/gif-nuevo.gif);
+    background-position: center;
 }
 
 form {
@@ -16,6 +20,8 @@ form {
     padding: 2rem;
     margin: 1rem;
     width: 40rem;
+    background-color: cadetblue;
+    box-shadow: -30px 10px 20px;
 }
 
 h1 {
@@ -38,6 +44,16 @@ h2 {
 .contain-button {
     display: flex;
     justify-content: center;
+}
+
+input {
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+textarea {
+    border-radius: 5px;
+    padding-left: 5px;
 }
 
 .button {

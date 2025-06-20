@@ -54,6 +54,8 @@ input {
 textarea {
     border-radius: 5px;
     padding-left: 5px;
+    width: 30vh;
+    height: 2vh;
 }
 
 .button {

@@ -62,6 +62,33 @@ header {
     font-size: 3vh;
 }
 
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    color: white;
+}
+
+.compatible-devices {
+    text-align: center;
+    margin-bottom: 15rem;
+}
+
+.img-mac {
+    width: 30vh;
+}
+
+.compatible-devices .images-article .arrow-left {
+    width: 2vh;
+    padding-right: 3rm;
+}
+
+.compatible-devices .images-article .arrow-rigth {
+    width: 2vh;
+    transform: scaleX(-1);
+    margin-left: 3rm;
+}
 
 footer {
     display: flex;

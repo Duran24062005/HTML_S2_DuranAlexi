@@ -61,3 +61,24 @@ header {
     border-radius: 20vh;
     font-size: 3vh;
 }
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+footer ul {
+    color: white;
+    display: flex;
+}
+
+footer ul li {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    list-style: none;
+    font-family: 'Amazon Ember';
+    font-weight: 350;
+}

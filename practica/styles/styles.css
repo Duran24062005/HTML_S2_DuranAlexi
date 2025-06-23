@@ -7,8 +7,11 @@
 }
 
 body {
-    /*width: 1918px;
-    height: 4149px;*/
+    /*
+    width: 1918px;
+    height: 4149px;
+    /HTML_S2_DuranAlexi
+    */
     background: transparent url(/HTML_S2_DuranAlexi/practica/img/Path\ 1.svg);
     border: 1px solid #707070;
     opacity: 1;
@@ -93,11 +96,50 @@ header {
     font-size: 3vh;
 }
 
+section {
+    margin-left: 4rem;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.content-center {
+    background-color: rgb(52, 193, 236);
+    margin: 2rem;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+    color: white;
+}
+
+.content-center h2 {
+    font-family: 'Amazon Ember';
+    font-size: 2.5rem;
+}
+
+.content-center p {
+    width: 70rem;
+    margin: 0 auto;
+    font-family: 'Amazon Ember';
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.content-center-imgs {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.content-center-imgs img {
+    width: 4rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+
 article {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
     color: white;
 }
 
@@ -114,7 +156,7 @@ article {
 
 .compatible-devices p {
     font-size: 2rem;
-    width: 60rem;
+    width: 50rem;
     margin: 0 auto;
 }
 

@@ -3,3 +3,35 @@
     margin: 0;
     padding: 0;
 }
+
+.elemento {
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.elemento:hover {
+    margin: 1rem;
+    border-radius: 1.5rem;
+
+}
+
+.elemento h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.e1 {
+    background-color: cyan;
+}
+
+.e2 {
+     display: block;
+     background-color: yellowgreen;
+}
+
+.e3 {
+    background-color: aquamarine;
+}

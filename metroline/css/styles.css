@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navegador */
+.header-nav {
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    background-color: #FFFFFF;
+}
+
+.header-nav .logo-metro {
+    margin-top: 1rem;
+    width: 6rem;
+    height: 2rem;
+}
+
+.header-nav .list-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav .list-header .list-item {
+    margin: 1rem;
+    list-style: none;
+}
+
+.header-nav .list-header .list-item img {
+    width: 1.3rem;
+}
+
+/*Imagen central*/
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.card-container img {
+    width: 30rem;
+    margin: 3rem;
+    margin-bottom: 5rem;
+}
+
+/*Información de la tarjeta*/
+.information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-text {
+    margin-left: 1rem;
+}
+
+.shoppy-metro {
+    background-color: greenyellow;
+    padding: 1rem;
+    margin-right: 1rem;
+    border-radius: 1vh;
+    text-align: center;
+}
+
+/*Barra Lateral*/
+.left-aside {
+    background-color: #808080;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+/*.center-content {
+}*/
+
+.center-content .arrow-top {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.center-content .cant {
+    margin-bottom: 3rem;
+}
+
+.center-content .counter-container {
+    text-align: center;
+    margin-bottom: 5rem;
+}

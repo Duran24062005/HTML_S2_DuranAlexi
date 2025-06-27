@@ -1,0 +1,17 @@
+/* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}*/
+
+div {
+    background-color: red;
+}
+
+div h1 {
+    color: white;
+}
+
+div h1#Tarde {
+    color: yellowgreen;
+}

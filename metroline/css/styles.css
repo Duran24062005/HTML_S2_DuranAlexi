@@ -57,6 +57,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 2rem;
+  height: 70%;
 }
 
 .card-img {
@@ -110,11 +111,22 @@ body {
 
 .cant {
   margin: 1rem 0;
+  margin-top: 200%;
+  font-size: 120%;
+  font-weight: 700;
 }
 
 .counter-container {
   text-align: center;
   margin: 1rem 0;
+  margin-top: 200%;
+  margin-bottom: 350%;
+}
+
+.ftw {
+  font-weight: 0;
+  color: #b2b6b6;
+  margin: 1rem;
 }
 
 /* Responsive media queries */

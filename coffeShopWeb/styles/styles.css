@@ -92,6 +92,15 @@ section {
     margin-top: 8rem;
 }
 
+.span-big {
+    color: yellow;
+    font-size: 6rem;
+}
+
+span {
+    color: yellow;
+}
+
 .flex-content {
     display: flex;
 }
@@ -125,6 +134,11 @@ h2 {
 
 .h2 {
     font-size: 3rem;
+}
+
+.big {
+    font-size: 3.3rem;
+    color: white;
 }
 
 .text {
@@ -166,7 +180,61 @@ article {
     margin-bottom: 2rem;
 }
 
+.mocha-title {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mocha-text {
+    margin: 0.5rem;
+}
+
 .button-mocha {
     margin-top: 4rem;
     margin-bottom: -2rem;
+}
+
+
+/*Footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.footer-card {
+    text-align: center;
+    margin: 1rem;
+}
+
+.footer-card h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.footer-text-bottom {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.yellow {
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 40%;
+    height: 0.1rem;
+    background-color: yellow;
+}
+
+.text-footer {
+    margin: 0 auto;
+    margin-bottom: 1rem;
 }

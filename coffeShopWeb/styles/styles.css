@@ -69,9 +69,15 @@ button {
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
 }
 
+main {
+    display: flex;
+    justify-content: center;
+}
+
 section {
     display: flex;
     justify-content: space-between;
+    gap: 1em;
     margin-top: 8rem;
 }
 
@@ -91,6 +97,10 @@ section {
     width: 50vi;
 }
 
+.img-container .img-2 {
+    width: 27vi;
+}
+
 .text-content {
     width: 40rem;
     padding: 3rem;
@@ -100,6 +110,10 @@ h2 {
     margin-left: 1rem;
     margin-bottom: 2rem;
     font-size: 5rem;
+}
+
+.h2 {
+    font-size: 3rem;
 }
 
 .text {

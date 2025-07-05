@@ -4,15 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Css Grid Layout</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <link rel="shortcut icon" href="./img/first_image.jpeg" type="image/x-icon">
 </head>
 <body>
     <!--Main Box-->
     <main class="main-content">
         <!-- First Box-->
-         <article>
-            
+         <article class="flex-container">
+            <div>
+                <div class="item-container">
+                    <div class="item-container-2">
+                        <video autoplay loop muted class="items item-1">
+                            <source src="./img/first_video.mp4" type="video/mp4">
+                       </video>
+                       <video autoplay loop muted class="items item-3">
+                           <source src="./img/second_video.mp4" type="video/mp4">
+                       </video>
+                    </div>
+                    <img src="./img/first_image.jpeg" alt="" class="items item-2">
+                </div>
+                <video autoplay loop muted class="items item-4">
+                    <source src="./img/ultimate_video.mp4" type="video/mp4">
+                </video>
+            </div>
+
          </article>
     </main>
 </body>

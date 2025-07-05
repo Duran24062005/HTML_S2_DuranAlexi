@@ -4,7 +4,48 @@
     padding: 0;
 }
 
-.flex-container {
+body {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(29, 27, 27);
+}
+
+.flex-container {
+    background-color: black;
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 1rem;
+    width: 50rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    flex-flow: 2;
+}
+
+.flex-items {
+    width: rem;
+}
+
+.flex-items img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.flex-items video {
+    width: 15rem;
+    border-radius: 1rem;
+}
+
+.item-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.item-1-1 {
+    flex-shrink: 5;
+}
+
+.item-2-1 {
+    width: 19rem;
 }

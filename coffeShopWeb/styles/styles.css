@@ -1,21 +1,26 @@
+
+/*All styles*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Html styles*/
 html {
     background-color: rgb(34, 11, 10);
     color: aliceblue;
     width: 100%;
 }
 
+/*Navigation styles*/
 nav {
     display: flex;
     justify-content: center;
     margin: 1rem;
 }
 
+/*Navigation items style*/
 .nav-container {
     width: 80%;
     margin: 0 auto;

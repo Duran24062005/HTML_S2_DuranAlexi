@@ -1,5 +1,60 @@
+:root {
+    --primary-color: darkblue;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--primary-color);
+}
+
+.elemento {
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    padding: 3rem;
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    /*Definir duración de la animación*/
+    transition-duration: 2s;
+    /*transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);*/
+}
+
+.elemento:hover {
+      width: 250px;
+      height: 250px;
+      color: azure;
+      background-color: black;
+      border-radius: 1vi;
+}
+
+.item-1:hover {
+    animation: ejemplo1 2s;
+}
+
+.item-3:hover {
+    animation: ejemplo1 10s;
+}
+
+@keyframes ejemplo1 {
+    0%{ 
+        background-color: red; 
+    }
+
+    50% {
+        background-color: rgb(10, 226, 226);
+    }
+
+    100% {
+        border-radius: 5vi;
+    }
 }

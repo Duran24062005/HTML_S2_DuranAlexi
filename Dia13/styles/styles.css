@@ -17,8 +17,8 @@ body {
 
 .elemento {
     margin: 0 auto;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     text-align: center;
     padding: 3rem;
     background-color: lightblue;
@@ -42,7 +42,7 @@ body {
 }
 
 .item-3:hover {
-    animation: ejemplo1 10s;
+    animation: ejemplo1 2s;
 }
 
 @keyframes ejemplo1 {
